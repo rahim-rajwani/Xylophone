@@ -5,6 +5,7 @@
 // pink day-to-day programming | purple apple functions (refer to documentations consistely)
 // remember option + highlighting purple brings up quick documentation for apple code
 // remember declare func | and then call func | logical reasoning
+
 import UIKit
 import AVFoundation
 
@@ -17,6 +18,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
+        print(sender.backgroundColor)
         playSound()
     }
     
