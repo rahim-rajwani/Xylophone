@@ -1,7 +1,9 @@
 //
-//  ViewController.swift
-//  Xylophone
-// developer.apple.com/documentation *insert hand prayer emoji here*
+// ViewController.swift
+// Xylophone
+// developer.apple.com/documentation
+// pink day-to-day programming | purple apple functions (refer to documentations consistely)
+// remember option + highlighting purple brings up quick documentation for apple code
 
 import UIKit
 import AVFoundation //Audio Visual Foundation Module (Apple)
