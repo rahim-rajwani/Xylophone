@@ -1,6 +1,7 @@
 //
 //  ViewController.swift
 //  Xylophone
+// developer.apple.com/documentation *insert hand prayer emoji here*
 
 import UIKit
 import AVFoundation //Audio Visual Foundation Module (Apple)
