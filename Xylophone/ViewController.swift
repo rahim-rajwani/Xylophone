@@ -1,8 +1,6 @@
 //
 //  ViewController.swift
 //  Xylophone
-//
-//
 
 import UIKit
 import AVFoundation //Audio Visual Foundation Module (Apple)
