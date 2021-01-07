@@ -37,14 +37,10 @@ class ViewController: UIViewController {
            }
     
     }
-        
-    
     func playSound(soundName:String) {
         let url = Bundle.main.url(forResource:soundName, withExtension: "wav") //Location of sound file
         player = try! AVAudioPlayer(contentsOf: url!) //Load up the player itself to play the file
         player.play() //play sound
-        
-                
     }
 }
 
