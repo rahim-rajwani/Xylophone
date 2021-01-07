@@ -23,8 +23,13 @@ class ViewController: UIViewController {
         
         //Reduce the opacity to half and bring it back
         sender.alpha = 0.5
-        sender.alpha = 1.0
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+              //Return is back to full colour with a .2 second delay
+              sender.alpha = 1.0
+          }
     }
+        
     
     func playSound(soundName:String) {
         let url = Bundle.main.url(forResource:soundName, withExtension: "wav") //Location of sound file
