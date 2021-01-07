@@ -28,6 +28,14 @@ class ViewController: UIViewController {
               //Return is back to full colour with a .2 second delay
               sender.alpha = 1.0
           }
+        
+        //Ignore iPhone silent mode and play
+        do {
+              try AVAudioSession.sharedInstance().setCategory(.playback)
+           } catch(let error) {
+               print(error.localizedDescription)
+           }
+    
     }
         
     
@@ -35,6 +43,7 @@ class ViewController: UIViewController {
         let url = Bundle.main.url(forResource:soundName, withExtension: "wav") //Location of sound file
         player = try! AVAudioPlayer(contentsOf: url!) //Load up the player itself to play the file
         player.play() //play sound
+        
                 
     }
 }
