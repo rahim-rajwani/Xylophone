@@ -38,6 +38,7 @@ class ViewController: UIViewController {
               try AVAudioSession.sharedInstance().setCategory(.playback)
            } catch(let error) {
                print(error.localizedDescription)
+            
            }
     
     }
