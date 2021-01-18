@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     
         //print(sender.currentTitle)
         //print(sender.backgroundColor)
+        print(sender.titleLabel?.text)
         
         playSound(soundName: sender.currentTitle!)
         
