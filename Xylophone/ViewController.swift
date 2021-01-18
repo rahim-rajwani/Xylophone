@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
               //Return is back to full colour with a .2 second delay
               sender.alpha = 1.0
-          }
+          } 
         
         //Ignore iPhone silent mode and play
         do {
